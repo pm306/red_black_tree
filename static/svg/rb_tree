@@ -1,0 +1,23 @@
+// The Red-Black Tree
+digraph {
+	27 [color=red]
+	65 -> 27 [label=left]
+	7 [color=black]
+	27 -> 7 [label=left]
+	26 [color=red]
+	7 -> 26 [label=right]
+	32 [color=black]
+	27 -> 32 [label=right]
+	40 [color=red]
+	32 -> 40 [label=right]
+	70 [color=red]
+	65 -> 70 [label=right]
+	69 [color=black]
+	70 -> 69 [label=left]
+	84 [color=black]
+	70 -> 84 [label=right]
+	77 [color=red]
+	84 -> 77 [label=left]
+	87 [color=red]
+	84 -> 87 [label=right]
+}
